@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+# ---------------------------------------------------------------------------
+# Sattawat Arab
+# GIS Analyst
+# i-bitz company limited
+# Created on: 2018-11-13 17:34:25.00000
+# ---------------------------------------------------------------------------
+
+#no geometry
+<OGRVRTDataSource>
+    <OGRVRTLayer name="testtt2">
+        <SrcDataSource>D:\B_test\testtt2.csv</SrcDataSource>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
+#geometry
+<OGRVRTDataSource>
+    <OGRVRTLayer name="sheet1">
+        <SrcDataSource>Bulkupload.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>WGS84</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="LONGITUDE" y="LATITUDE"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

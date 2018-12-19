@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+# ---------------------------------------------------------------------------
+# Sattawat Arab
+# GIS Analyst
+# i-bitz company limited
+# Created on: 2018-11-13 17
+# ---------------------------------------------------------------------------
+ogr2ogr -f GeoJSON D:\B_test\bb\ogr2.geojson D:\B_test\bb\TMDValue.shp -lco ENCODING=UTF-8
