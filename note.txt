@@ -1,2 +1,4 @@
 copy to (for no put the password)
+1.pgadmin_histoqueries.xml
+2.pgpass.conf
 C:\Users\sattawat.a\AppData\Roaming\postgresql
