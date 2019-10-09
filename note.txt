@@ -1,0 +1,2 @@
+copy to (for no put the password)
+C:\Users\sattawat.a\AppData\Roaming\postgresql
